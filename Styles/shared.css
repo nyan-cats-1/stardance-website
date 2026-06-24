@@ -1,0 +1,39 @@
+@font-face {
+    font-family: JJK;
+    src: url(/Styles/Jujutsu\ Kaisen.ttf);
+}
+
+html {
+    background: linear-gradient(0deg, rgb(227, 255, 253), rgb(184, 225, 223));
+}
+
+header h1 {
+    font-family: 'JJK', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    height: 2rem;
+    margin: 0 0 5rem 0;
+    text-transform: uppercase;
+}
+
+.header-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.header-link:hover {
+    color: rgb(90, 49, 108);
+}
+
+footer {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    width: 10%;
+    height: 10%;
+    border-radius: 5px;
+    border: 3px solid rgb(192, 103, 178);
+}
