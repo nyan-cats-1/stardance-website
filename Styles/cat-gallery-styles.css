@@ -1,0 +1,42 @@
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    background-color: rgb(185, 234, 231);
+    border: 10px solid rgb(141, 225, 220);
+    margin: 2rem 0;
+    border-radius: 12px;
+    text-align: center;
+}
+
+div h2 {
+    font-size: 3rem;
+    font-family: 'JJK', sans-serif;
+    margin: 0.5rem 0;
+}
+
+div ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
+    overflow: hidden;
+}
+
+div li {
+    justify-items: center;
+    align-content: center;
+}
+
+div img {
+    width: 70%;
+    height: auto;
+    border: 5px solid rgb(141, 225, 220);
+}
+
+div li:nth-of-type(10) {
+    grid-column: 1 / span 3;
+    
+}
